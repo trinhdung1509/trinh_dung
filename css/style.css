@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 100%;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+.header{
+	height: 100px;background: rgb(17,0,36);
+    background: linear-gradient(90deg, rgba(17,0,36,1) 67%, rgba(9,121,63,1) 100%, rgba(0,212,255,1) 100%);
+	margin: 0  auto;
+}
+.logo a img{
+	width: 15%;
+	height: 100px;
+	float: left;
+}
+.nav{
+	width: 70%;
+	height: 100px;
+	float: right;
+}
+.nav li{
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 50px;
+}
+.nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.nav ul li a:hover{
+	color: sandybrown;
+}
+.banner{
+	width: 100%;
+	height: 400px;
+	background: url("../img/oasisnetwork-sun.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.content{
+	width: 100%;
+	height: 400px;
+	background: black;
+}
+.content1 img{
+	width: 30%;
+	height: 200px;
+	float: left;
+	margin-right: 30px;
+}
+@-webkit-keyframes my {
+0% { color: #F8CD0A; }
+50% { color: #fff; }
+100% { color: #F8CD0A; }
+}
+@-moz-keyframes my {
+0% { color: #F8CD0A; }
+50% { color: #fff; }
+100% { color: #F8CD0A; }
+}
+@-o-keyframes my {
+0% { color: #F8CD0A; }
+50% { color: #fff; }
+100% { color: #F8CD0A; }
+}
+@keyframes my {
+0% { color: #F8CD0A; }
+50% { color: #fff; }
+100% { color: #F8CD0A; }
+}
+h1 {
+	
+	color: white;
+	line-height: 100px;
+	font-size: 30px;
+	text-align: center;
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite;
+	-o-animation: my 700ms infinite;
+	animation: my 700ms infinite;
+}
+.content2{
+	width: 100%;
+	height: 500px;
+	background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.left{
+	font-family: 'Dancing Script', cursive;
+	width: 50%;
+	line-height: 50px;
+	float: left;
+}
+.container3{
+	width: 100%;
+	height: 420px;
+	background: black;
+}
+img{
+	width: 50%;
+	height: 500px;
+	float: right;
+}
+.right2{
+	line-height: 50px;
+	width: 50%;
+	padding-top: 50px;
+	float: right;
+	color: white;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+}
+.left2{
+	float: left;
+}
+.container4{
+	width: 100%;
+	height: 850px;
+	background: url("../img/b.jpg");
+}
+.left4{
+	padding-top: 70px;
+	width: 50%;
+	color: mediumpurple;
+	font-size: 40px;
+	float: left;
+}
+.footer{
+	width: 100%;
+	height: 180px;background: #3a7bd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.left3{
+	line-height: 30px;
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.copyright{
+	padding-top: 20px;
+	text-align: center;
+}
